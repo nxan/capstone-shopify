@@ -1,15 +1,15 @@
 const Sequelize = require('sequelize');
 const db = require('../config/db');
 
-const User = db.define('tbl_User', {
-    email: {
-        type: String,
-        require: true
+
+const Profile = db.define('tbl_Shop', {
+    user_id: {
+        type: Sequelize.INTEGER
     },
-    password: {
+    shop_url: {
         type: String
     },
-    name: {
+    shop_name: {
         type: String
     }
 }, {
@@ -18,4 +18,4 @@ const User = db.define('tbl_User', {
     }
 );
 
-module.exports = User;
+module.exports = Profile;
