@@ -1,5 +1,10 @@
 ﻿# capstone-shopify
 
+Server: nxan.database.windows.net
+Username: nxan
+Password: Nguyenxuanan1811
+DB_Name: Capstion-Shopify
+
 Cài đặt nodemon
 
 Clone project -> npm install
