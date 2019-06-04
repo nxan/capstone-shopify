@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 const db = require('../config/db');
 
 
-const Profile = db.define('tbl_Shop', {
+const Profile = db.define('shop', {
     user_id: {
         type: Sequelize.INTEGER
     },

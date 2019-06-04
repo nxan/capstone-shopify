@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 
-const db = new Sequelize('DB_NAME', 'USERNAME', 'PASSWORD', {
+const db = new Sequelize('Capstion-Shopify', 'nxan', 'Nguyenxuanan1811', {
     dialect: 'mssql',
-    host: 'HOST',
+    host: 'nxan.database.windows.net',
     port: 1433,
     timestamps: false,
     dialectOptions: { options: { encrypt: true } }
